@@ -6,5 +6,8 @@ This repo contains quasi [jekyll](https://github.com/jekyll/jekyll) installation
 - Always serve with --no-watch, watching currently [doesn't work on WSL](https://github.com/Microsoft/BashOnWindows/issues/216)
 - Bundler had some issues would recommend using jekyll directly e.g. `jekyll new devblog`
 
+## Remarks (probably just my setup):
+- `jekyll new devblog` didn't work (some dependency problems with `listen`) `bundle exec jekyll new devblog` worked well
+
 ## License:
 [MIT](https://opensource.org/licenses/MIT)
